@@ -8,15 +8,25 @@
 ## Prerequisites
 
 
-## Get started
+## Installation
+Add this line to your application's Gemfile:
 
+```ruby
+gem "select_with_search_component"
+```
 
-## Deploy
+And then execute:
+```bash
+$ bundle
+```
 
+Or install it yourself as:
+```bash
+$ gem install select_with_search_component
+```
 
 ## Testing
 
-
 ## Licence
 
-[The MIT Licence](LICENSE)
+The gem is available as open source under the terms of the [MIT Licence](LICENSE)
