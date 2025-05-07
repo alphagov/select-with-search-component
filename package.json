@@ -1,0 +1,33 @@
+{
+  "name": "select-with-search-component",
+  "description": "Select with Search component",
+  "private": true,
+  "author": "Government Digital Service",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn run lint:js && yarn run lint:scss && yarn run lint:prettier",
+    "lint:js": "eslint --cache --cache-location .cache/eslint --color --ignore-path .gitignore -- \"**/*.js\"",
+    "lint:scss": "stylelint app/assets/stylesheets/",
+    "lint:prettier": "prettier --cache --cache-location .cache/prettier --cache-strategy content --check -- \"**/*.{js,scss}\"",
+    "lint:prettier:fix": "prettier --write \"**/*.{js,scss}\"",
+    "jasmine:ci": "yarn run jasmine-browser-runner runSpecs"
+  },
+  "dependencies": {
+    "choices.js": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.17.0",
+    "eslint-plugin-promise": "^6.6.0",
+    "jasmine-browser-runner": "^3.0.0",
+    "jasmine-core": "^5.7.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "standard": "^17.1.2",
+    "stylelint": "^16.19.0",
+    "stylelint-config-gds": "^2.0.0"
+  }
+}

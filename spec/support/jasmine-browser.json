@@ -1,0 +1,15 @@
+{
+  "srcDir": "public/assets/select-with-search-component",
+  "srcFiles": [
+    "application-*.js",
+    "all-*.js"
+  ],
+  "specDir": ".",
+  "specFiles": [
+    "spec/javascripts/**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "helpers/*.js"
+  ],
+  "browser": "headlessChrome"
+}
