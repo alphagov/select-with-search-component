@@ -12,3 +12,17 @@ if ActiveSupport::TestCase.respond_to?(:fixture_paths=)
   ActiveSupport::TestCase.file_fixture_path = "#{File.expand_path('fixtures', __dir__)}/files"
   ActiveSupport::TestCase.fixtures :all
 end
+
+class ActionView::TestCase
+  def setup_view_context
+    @view_context = @controller.view_context
+  end
+end
+
+class PresenterTestCase < ActionView::TestCase
+  setup :setup_view_context
+
+  def stubs_helper_method(*args)
+    @view_context.stubs(*args)
+  end
+end

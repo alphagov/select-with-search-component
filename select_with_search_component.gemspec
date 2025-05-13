@@ -20,5 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "brakeman"
   spec.add_development_dependency "erb_lint"
   spec.add_development_dependency "govuk_test"
+  spec.add_development_dependency "minitest"
   spec.add_development_dependency "rubocop-govuk"
+  spec.add_development_dependency "sqlite3"
 end
