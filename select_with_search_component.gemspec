@@ -19,5 +19,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 8.0.2"
   spec.add_development_dependency "brakeman"
   spec.add_development_dependency "erb_lint"
+  spec.add_development_dependency "govuk_test"
   spec.add_development_dependency "rubocop-govuk"
 end
