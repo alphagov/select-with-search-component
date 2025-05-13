@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary     = "A gem to re-use the select-with-search component"
   spec.description = "A gem to re-use the select-with-search component"
   spec.license     = "MIT"
-  spec.required_ruby_version = ">= 3.3.8"
+  spec.required_ruby_version = ">= 3.3.6"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
