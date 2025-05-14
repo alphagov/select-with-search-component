@@ -1,8 +1,8 @@
 {
-  "srcDir": "public/assets/select-with-search-component",
+  "srcDir": ".",
   "srcFiles": [
-    "application-*.js",
-    "all-*.js"
+    "app/assets/javascripts/**/*.js",
+    "node_modules/choices.js/public/assets/scripts/choices.min.js"
   ],
   "specDir": ".",
   "specFiles": [
