@@ -38,6 +38,12 @@ Or install it yourself as:
 $ gem install select_with_search_component
 ```
 
+## Usage and Guidance
+
+Documentation for component guidance is currently hosted on Whitehall: 
+https://whitehall-admin.integration.publishing.service.gov.uk/component-guide/select_with_search 
+
+
 ## Testing
 
 Running `rake` in this gem repository will run the following tasks, along with their individual rake task option if you want to run that task alone: 
