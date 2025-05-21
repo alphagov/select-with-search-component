@@ -52,6 +52,10 @@ jobs:
     name: Lint ERB
     uses: ./.github/workflows/linterb.yml
 
+  test-ruby:
+    name: Test Ruby
+    uses: ./.github/workflows/minitest.yml
+
   test-javascript:
     name: Test JavaScript
     uses: alphagov/govuk-infrastructure/.github/workflows/jasmine.yml@main
