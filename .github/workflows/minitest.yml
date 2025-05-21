@@ -1,0 +1,19 @@
+name: Run Minitest
+
+on: workflow_call
+
+jobs:
+  run-erb-lint:
+    name: Run Minitest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Run Minitest
+        run: bundle exec rake test
